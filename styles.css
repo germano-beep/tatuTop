@@ -1,0 +1,54 @@
+.navbar {
+  background-color: #70000C;
+  color: white;
+}
+
+.nav-item {
+   font-weight: bold;
+}
+
+.d-block {
+  opacity: 0.80;
+}
+
+.lead {
+  color: #000000;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+#carouselTitle {
+  margin-top: 150px;
+  position: absolute;
+  font-weight: bold;
+  color:70000C;
+  text-shadow: 0 0 2px #000000;
+  text-align: center;
+
+}
+
+#quemSomos {
+  background-color: #B5B5B5;
+  
+}
+
+h2{
+  color:#70000C;
+  font-weight: bold;
+}
+
+
+@media screen and (max-width: 600px) {
+  .d-block {
+    height: 300px;
+  }
+
+  #quemSomos {
+    height: 300px;
+  }
+
+  h2 {
+    font-size: 25px;
+    text-align: center;
+  }
+}

@@ -1,6 +1,8 @@
 .navbar {
   background-color: #70000C;
   color: white;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .nav-item {

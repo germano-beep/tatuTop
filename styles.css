@@ -27,11 +27,23 @@
 
 }
 
-#quemSomos {
+.fundoEscuro {
   background-color: #B5B5B5;
-  
+  margin: 0px;
 }
 
+.fundoClaro {
+  background-color: #F2F2F2;
+  margin: 0px;
+}
+
+#icon {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  color:#70000C;
+  size: 1000px;
+}
 h2{
   color:#70000C;
   font-weight: bold;

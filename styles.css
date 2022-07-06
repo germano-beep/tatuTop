@@ -1,8 +1,6 @@
 .navbar {
   background-color: #70000C;
   color: white;
-  display: flex;
-  justify-content: flex-end;
 }
 
 .nav-item {
@@ -19,16 +17,6 @@
   margin-top: 50px;
 }
 
-#carouselTitle {
-  margin-top: 150px;
-  position: absolute;
-  font-weight: bold;
-  color:70000C;
-  text-shadow: 0 0 2px #000000;
-  text-align: center;
-
-}
-
 .fundoEscuro {
   background-color: #B5B5B5;
   margin: 0px;
@@ -37,6 +25,19 @@
 .fundoClaro {
   background-color: #F2F2F2;
   margin: 0px;
+}
+
+#navbarNav {
+  float: left
+}
+
+#carouselTitle {
+  margin-top: 150px;
+  position: absolute;
+  font-weight: bold;
+  color:70000C;
+  text-shadow: 0 0 2px #000000;
+  text-align: center;
 }
 
 #icon {

@@ -27,10 +27,6 @@
   margin: 0px;
 }
 
-.imgNossasArtes{
-  border-radius: 50%;
-}
-
 .pointer{
   cursor: pointer
 }
@@ -105,6 +101,7 @@ h2{
 
   .imgNossasArtes{
     width: 80px;
+    border-radius: 50%;
   }
 
   #quemSomos {
@@ -120,7 +117,40 @@ h2{
 @media screen and (min-width: 1025px) {
 
   .d-block {
-     height: 800px;
+     height: 700px;
+  }
+
+  .relativeCarouselTitle {
+    display: flex;
+    justify-content: center;
+  }
+
+  .textClass{
+    text-align: center;
+    width: 400px;
+  }
+
+  .alignCenterClass{
+    display: flex;
+    justify-content: center;
+  }
+
+  .imgNossasArtes {
+     width: 50%;
+    border-radius: 50%;
+  }
+
+  #carouselTitle{
+    margin-top: 350px;
+    font-size: 50px;
+  }
+
+  #mission{
+    background-color: #F2F2F2; 
+  }
+
+  #nossasArtes {
+    text-align: center;
   }
 
 }
